@@ -1,0 +1,21 @@
+import time
+import random
+
+print("OVERTHINKING STOPPER")
+print("Concepts used: user input, time delay, randomness, control flow\n")
+
+thought = input("Enter the thought you are overthinking about: ")
+
+print("\nThinking time started (10 seconds)...")
+time.sleep(10)
+
+messages = [
+    "Stop overthinking. Take action.",
+    "This problem is not permanent.",
+    "Focus on what you can control.",
+    "Take a deep breath and move forward.",
+    "Overthinking limit reached. End process."
+]
+
+print("\nThinking time completed.")
+print("Final message:", random.choice(messages))
